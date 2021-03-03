@@ -1,0 +1,16 @@
+$ui-3: #f0f1f3;
+$ui-4: #d3d4d8;
+$primary: #0056D8;
+
+.CheckboxCard {
+    position: relative;
+    border: 3px solid $ui-3;
+    border-radius: 4px;
+    cursor: pointer;
+
+    &:hover,
+    &__checked {
+      border-color: rgba($primary, 0.3);
+      color: $primary;
+    }
+  }

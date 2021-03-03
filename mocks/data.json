@@ -1,0 +1,22 @@
+{
+    "crypto": [
+        {
+            "id": 1,
+            "label": "Bitcoin",
+            "name": "bitcoin",
+            "marketplaces": [
+                {"id":1, "label": "Robinhood", "brand_url": "http://localhost:3000/brands/robinhood.png", "name":"robinhood"},
+                {"id":2, "label": "Coinbase", "brand_url": "http://localhost:3000/brands/coinbase.png", "name":"coinbase"}
+            ]
+        },
+        {
+            "id": 2,
+            "label": "Ethereum",
+            "name": "ethereum",
+            "marketplaces": [
+                {"id":1, "label": "Robinhood", "brand_url": "http://localhost:3000/brands/robinhood.png", "name":"robinhood"},
+                {"id":2, "label": "Coinbase", "brand_url": "http://localhost:3000/brands/coinbase.png", "name":"coinbase"}
+            ]
+        }
+    ]
+}

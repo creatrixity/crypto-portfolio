@@ -1,0 +1,83 @@
+$secondary: #0056D8;
+$light-gray: #F0F1F3;
+$gray: #CCC;
+$pale-blue: #D3E0F2;
+
+.Steps__Wrapper {
+    display: block;
+  }
+
+  .Steps {
+    position: relative;
+    display: flex;
+    padding: 0;
+    list-style: none;
+    width: inherit;
+  }
+
+  .Step {
+    position: relative;
+    font-size: 12px;
+    flex: 1;
+  }
+
+  .Step__Label {
+    color: $gray;
+  }
+
+  .Step {
+    &::before {
+      content: "";
+      width: 100%;
+      height: 8px;
+      background-color: $gray;
+      position: absolute;
+    }
+
+    &__Milestone {
+      width: 28px;
+      height: 28px;
+      border-radius: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: $light-gray;
+      border: 2px solid $gray;
+      position: relative;
+      bottom: 10px;
+      position: relative;
+    }
+  }
+
+  .Step__Completed {
+    &::before {
+      background: $secondary;
+    }
+
+    .Step__Milestone {
+      background: $pale-blue;
+      color: $secondary;
+      border-color: $secondary;
+    }
+  }
+
+  .Step__Completed .Step__Label,
+  .Step__Current .Step__Label {
+    color: $secondary;
+  }
+
+  .Step__Current {
+    .Step__Milestone {
+      background: $secondary;
+      border-color: $secondary;
+    }
+
+    .Step__Label {
+      font-weight: bolder;
+    }
+  }
+
+  .Step__Last::before {
+    content: "";
+    display: none;
+  }

@@ -1,0 +1,56 @@
+$light-gray: #F0F1F3;
+
+.Portfolio__Container {
+    background-color: $light-gray;
+    height: 100%;
+}
+
+.Section__Heading {
+    text-align: center;
+    margin: 0;
+    padding: 4em 0 1em 0;
+    color: #001B2E;
+
+    &__Title {
+        font-size: 2em;
+    }
+}
+
+.Form {
+    &__Card {
+        padding: 3em;
+        width: 50vw;
+        margin: auto;
+        background: #fff;
+        box-shadow: 0px 0.5em 1em rgba(0, 0, 0, 0.1);
+        border-radius: 0.5em;
+    }
+
+    &__Label {
+        display: block;
+        font-size: 0.8em;
+        margin-bottom: 0.8em;
+        font-weight: 600;
+    }
+
+    &__Field {
+        display: block;
+        background: $light-gray;
+        width: 100%;
+        height: 3em;
+        border: 1px solid $light-gray;
+        padding: 1em;
+        border-radius: 4px;
+        margin-bottom: 1em;
+    }
+
+    &__Button__Container {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.Steps__Container {
+    margin: 0 auto 2em auto;
+    width: 50vw;
+}
