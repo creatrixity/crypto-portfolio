@@ -7,10 +7,12 @@ $primary: #0056D8;
     border: 3px solid $ui-3;
     border-radius: 4px;
     cursor: pointer;
+    font-size: 0.8em;
 
     &:hover,
     &__checked {
-      border-color: rgba($primary, 0.3);
+      border-color: rgba($primary, 0.2);
       color: $primary;
+      font-weight: bold;
     }
   }

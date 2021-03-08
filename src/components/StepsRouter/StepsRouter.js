@@ -9,6 +9,7 @@ const StepsRouter = ({ steps }) => {
                 <Route
                     path={step.path}
                     key={index}
+                    exact
                     render={props => <EnhancedRoute {...props} step={step} steps={steps} />}
                 />
             ))}

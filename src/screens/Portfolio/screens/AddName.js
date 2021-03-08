@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import Steps from "components/Steps";
 import styles from 'screens/Portfolio/Portfolio.module.scss'
 
-function AddName({ stepsList, ...props }) {
+function AddName({ stepsList }) {
     return (
         <div>
             <section className={styles.Section__Heading}>
@@ -28,7 +28,7 @@ function AddName({ stepsList, ...props }) {
                         <span className="chevron left" />
                         Back
                     </Link>
-                    <Link to={`/portfolio/create/pick-services`} className="btn btn-primary">
+                    <Link to={`/portfolio/create/select-crypto`} className="btn btn-primary">
                         Select Crypto
                         <span className="chevron right" />
                   </Link>

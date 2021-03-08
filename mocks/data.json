@@ -4,19 +4,26 @@
             "id": 1,
             "label": "Bitcoin",
             "name": "bitcoin",
+            "brand_url": "http://localhost:3000/brands/bitcoin.svg",
             "marketplaces": [
-                {"id":1, "label": "Robinhood", "brand_url": "http://localhost:3000/brands/robinhood.png", "name":"robinhood"},
-                {"id":2, "label": "Coinbase", "brand_url": "http://localhost:3000/brands/coinbase.png", "name":"coinbase"}
+                {"id":1, "label": "Robinhood", "brand_url": "http://localhost:3000/brands/robinhood.svg", "name":"robinhood"},
+                {"id":2, "label": "Coinbase", "brand_url": "http://localhost:3000/brands/coinbase.svg", "name":"coinbase"}
             ]
         },
         {
             "id": 2,
             "label": "Ethereum",
             "name": "ethereum",
+            "brand_url": "http://localhost:3000/brands/ethereum.svg",
             "marketplaces": [
-                {"id":1, "label": "Robinhood", "brand_url": "http://localhost:3000/brands/robinhood.png", "name":"robinhood"},
-                {"id":2, "label": "Coinbase", "brand_url": "http://localhost:3000/brands/coinbase.png", "name":"coinbase"}
+                {"id":1, "label": "Robinhood", "brand_url": "http://localhost:3000/brands/robinhood.svg", "name":"robinhood"},
+                {"id":2, "label": "Coinbase", "brand_url": "http://localhost:3000/brands/coinbase.svg", "name":"coinbase"}
             ]
         }
+    ],
+
+    "marketplaces": [
+        {"id":1, "label": "Robinhood", "brand_url": "http://localhost:3000/brands/robinhood.svg", "name":"robinhood"},
+        {"id":2, "label": "Coinbase", "brand_url": "http://localhost:3000/brands/coinbase.svg", "name":"coinbase"}
     ]
 }

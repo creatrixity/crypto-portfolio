@@ -14,10 +14,10 @@ const CheckboxCard = ({ children, onChange, label, ...props }) => {
       })}
       onClick={onChange}
     >
-      <section className="d-flex justify-content-end py-2 px-3">
+      <section className="d-flex flex-direction-reverse pr-4 pt-4">
         <CheckboxRound onChange={onChange} {...props} />
       </section>
-      <div className="d-flex flex-column align-items-center justify-content-center">
+      <div className="d-flex flex-direction-column align-items-center justify-content-center py-2 px-3">
         {children}
         <p>{label}</p>
       </div>
